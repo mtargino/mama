@@ -86,7 +86,7 @@ i {
 }
 
 /* min-width */
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
     #state {
         flex-direction: row;
     }
