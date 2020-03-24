@@ -79,7 +79,15 @@ i {
     }
 }
 
-@media (max-width: 600px) {
+/* min-width */
+@media screen and (min-width: 900px) {
+    #state {
+        flex-direction: row;
+    }
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 400px) and (max-width: 900px) {
     #state {
         flex-direction: column;
     }
