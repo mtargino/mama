@@ -1,7 +1,7 @@
 var button = document.getElementById("icon")
 var state = document.getElementById("state")
 var mama = document.getElementById("mama")
-var text = ["&nbsp Má", "Boa"]
+var text = ["Má", "Boa"]
 
 function change() {
     button.classList.toggle("icon-good");
